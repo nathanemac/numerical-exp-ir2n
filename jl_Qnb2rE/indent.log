@@ -1,0 +1,52 @@
+INFO:  latexindent.pl version 3.24.5, 2025-03-13, a script to indent .tex files
+       latexindent.pl lives here: /opt/homebrew/Cellar/latexindent/3.24.5/libexec/bin/
+       Tue Dec  9 12:14:50 2025
+       Filename: /Users/nathanallaire/dev/Coding/Codes iR2N/debug_&_test/__latexindent_temp_test-matcomp.tex
+INFO:  Processing switches:
+       -w|--overwrite: Overwrite mode active, will make a back up before overwriting
+       -y|--yaml: YAML settings specified via command line
+       -m|--modifylinebreaks: modify line breaks
+       -c|--cruft: cruft directory
+       -r|--replacement: replacement mode
+INFO:  Directory for backup files and log file /Users/nathanallaire/dev/Coding/Codes iR2N/debug_&_test/jl_Qnb2rE/indent.log:
+       /Users/nathanallaire/dev/Coding/Codes iR2N/debug_&_test/jl_Qnb2rE/
+INFO:  Perl modules are being loaded from the following directories:
+       /opt/homebrew/opt/perl/lib/perl5/5.40/FindBin.pm
+       /opt/homebrew/Cellar/latexindent/3.24.5/libexec/lib/perl5/YAML/Tiny.pm
+       /opt/homebrew/opt/perl/lib/perl5/5.40/File/Copy.pm
+       /opt/homebrew/opt/perl/lib/perl5/5.40/File/Basename.pm
+       /opt/homebrew/opt/perl/lib/perl5/5.40/Getopt/Long.pm
+       /opt/homebrew/Cellar/latexindent/3.24.5/libexec/lib/perl5/File/HomeDir.pm
+INFO:  LatexIndent perl modules are being loaded from, for example:
+       /opt/homebrew/Cellar/latexindent/3.24.5/libexec/lib/perl5/LatexIndent/Document.pm
+INFO:  YAML settings read: defaultSettings.yaml
+       Reading defaultSettings.yaml from /opt/homebrew/Cellar/latexindent/3.24.5/libexec/bin/defaultSettings.yaml
+INFO:  YAML reading settings
+       Home directory is /Users/nathanallaire
+       latexindent.pl didn't find indentconfig.yaml or .indentconfig.yaml
+       see all possible locations: https://latexindentpl.readthedocs.io/en/latest/sec-appendices.html#indentconfig-options)
+INFO:  -l switch used without filename, will search for the following files in turn:
+       localSettings.yaml,latexindent.yaml,.localSettings.yaml,.latexindent.yaml
+INFO:  YAML settings read: -l switch
+       Multiple localSettings found, separated by commas:
+       localSettings.yaml, latexindent.yaml, .localSettings.yaml, .latexindent.yaml
+WARN:  yaml file not found: localSettings.yaml not found. Proceeding without it.
+WARN:  yaml file not found: latexindent.yaml not found. Proceeding without it.
+WARN:  yaml file not found: .localSettings.yaml not found. Proceeding without it.
+WARN:  yaml file not found: .latexindent.yaml not found. Proceeding without it.
+INFO:  YAML settings read: -y switch
+       YAML setting: defaultIndent:'  '
+       single-quoted string found in -y switch: '  ', substitute to   
+       Updating mainSettings with defaultIndent:   
+INFO:  Backup procedure (-w flag active):
+       Backing up /Users/nathanallaire/dev/Coding/Codes iR2N/debug_&_test/__latexindent_temp_test-matcomp.tex to /Users/nathanallaire/dev/Coding/Codes iR2N/debug_&_test/jl_Qnb2rE/__latexindent_temp_test-matcomp.bak0...
+       /Users/nathanallaire/dev/Coding/Codes iR2N/debug_&_test/__latexindent_temp_test-matcomp.tex will be overwritten after indentation
+INFO:  Phase 1: searching for objects
+INFO:  Phase 2: finding surrounding indentation
+INFO:  Phase 3: indenting objects
+INFO:  Phase 4: final indentation check
+INFO:  Output routine:
+       Overwriting file /Users/nathanallaire/dev/Coding/Codes iR2N/debug_&_test/__latexindent_temp_test-matcomp.tex
+       --------------
+INFO:  Please direct all communication/issues to:
+        https://github.com/cmhughes/latexindent.pl

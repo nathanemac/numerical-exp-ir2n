@@ -1,0 +1,9 @@
+\documentclass{standalone}
+
+\usepackage{pgfplots}
+\pgfplotsset{compat=newest}
+\usepgfplotslibrary{groupplots,colormaps}
+
+\begin{document}
+\input{demo-matcomp-comparison.tikz}
+\end{document}
